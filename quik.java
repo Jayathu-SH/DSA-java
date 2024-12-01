@@ -35,7 +35,7 @@ public class quik
                 arr[i+1] = arr[high];//i+1 replace by high
                 arr[high] = temp;//high replace by temp
 
-                return  i+1;
+                return i+1;
     }
     public static void main(String[] args) 
     {
