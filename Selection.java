@@ -7,7 +7,7 @@ public class Selection {
         int temp = 0;
         int minIndex = -1;
         
-        System.out.println("Before sorting");
+        System.out.println ("Before sorting");
         for(int num : nums){
             System.out.print(num + " ");
         }

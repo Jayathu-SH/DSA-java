@@ -12,7 +12,7 @@ public class quik
                         quickSort(arr, pi+1 ,high);
                     }
                 }
-    private static int partition(int[] arr, int low, int high) 
+    private static int partition (int[] arr, int low, int high) 
     {
         int pivot = arr[high];
         int i = low-1;

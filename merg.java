@@ -2,7 +2,7 @@ public class merg {
 
     private static void mergeSort(int[] arr, int l, int r) {
        
-        if(l<r){
+        if (l<r){
 
             int mid = (l+r)/2;
             mergeSort(arr, l, mid);//[3,5,1]
