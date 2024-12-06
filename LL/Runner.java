@@ -12,6 +12,9 @@ public class Runner {
         list.insert(18);
         list.insert(45);
         list.insert(12);
+        list.insertAtStart(25);
+
+        list.insertAt(2, 55);
 
         list.show();
        
