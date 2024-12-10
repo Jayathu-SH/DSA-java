@@ -8,17 +8,28 @@ public class Queue {
 
     public void enQueue(int data)
     {
+        if(!isFull())
+        {
         queue[rear] = data;
         rear = (rear+1)%5; //inserting rear++,front same,,,,%5 circular
         size = size+1;
+        }
+        else
+        {
+        System.out.println("Queue is Full");
+        }
     }
 
     public int deQueue()
     {
         int data = queue[front];
+        if(!isEmpty())
+        {
         front = (front+1)%5;
         size = size-1;
-
+        }
+        else
+        System.out.println("Queue is Empty");
         return data;
 
     }
@@ -37,6 +48,20 @@ public class Queue {
         {
             System.out.print(n + " ");
         }
+    }
+    public int getSize()
+    {
+        return size;
+    }
+
+    public boolean isEmpty()
+    {
+        return getSize()==0;
+    }
+
+    public boolean isFull()
+    {
+        return getSize()==5;
     }
 
 }
