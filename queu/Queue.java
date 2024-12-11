@@ -25,7 +25,7 @@ public class Queue {
         int data = queue[front];
         if(!isEmpty())
         {
-        front = (front+1)%5;
+        front = (front+1)%5;// %size-circular queue
         size = size-1;
         }
         else
