@@ -9,7 +9,7 @@ public class Stack {
             stack[top] = data; 
             top++; 
         } else {
-            System.out.println("Stack Overflow"); 
+            System.out.println("Stack Overflow"); // full
         }
 
         //public int pop()

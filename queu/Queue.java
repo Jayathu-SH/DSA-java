@@ -40,7 +40,7 @@ public class Queue {
         for(int i=0; i<size; i++)
         {
             //System.out.print(queue[i] + " ");
-            System.out.print(queue[(front+i)%5] + " ");
+            System.out.print(queue[(front+i)%5] + " ");// %size circular
         }
         System.out.println();
 
