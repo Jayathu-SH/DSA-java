@@ -11,6 +11,6 @@ public class Main {
         tree.insert(2);
         tree.insert(5);
 
-        tree.preorder();
+        tree.preorder();// in,pre,post order
     }
 }
