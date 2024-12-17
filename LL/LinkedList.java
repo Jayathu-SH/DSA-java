@@ -24,7 +24,7 @@ public class LinkedList {
         }
        
     }
-    public void insertAtStart(int data)
+    public void insertAtStart (int data)
     {
         Node node = new Node();
         node.data = data;
@@ -80,7 +80,7 @@ public class LinkedList {
         Node node = head;
 
         while (node.next != null) {
-            System.out.println(node.data);
+            System.out.println (node.data);
             node = node.next;
         }
         System.out.println(node.data);//manually print 12 because of the null value

@@ -6,7 +6,7 @@ public class Queue {
     int front;
     int rear;
 
-    public void enQueue(int data)
+    public void enQueue (int data)
     {
         if(!isFull())
         {
@@ -36,7 +36,7 @@ public class Queue {
 
     public void show()
     {
-        System.out.print("Elements : ");
+        System.out.print ("Elements : ");
         for(int i=0; i<size; i++)
         {
             //System.out.print(queue[i] + " ");

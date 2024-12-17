@@ -21,7 +21,7 @@ public class Runner {
         //System.out.println(q.isEmpty());
         System.out.println(q.isFull());
 
-        System.out.println("Size " + q.getSize());// getSize is a method 
+        System.out.println ("Size " + q.getSize());// getSize is a method 
         q.show();
     }
 }
