@@ -5,7 +5,7 @@ package LL;
 public class Runner {
     
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         
         LinkedList list = new LinkedList();
         //list.insert(5);

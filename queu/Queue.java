@@ -23,7 +23,7 @@ public class Queue {
     public int deQueue()
     {
         int data = queue[front];
-        if(!isEmpty())
+        if (!isEmpty())
         {
         front = (front+1)%5;// %size-circular queue
         size = size-1;

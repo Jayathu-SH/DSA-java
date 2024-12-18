@@ -22,7 +22,7 @@ public class BinaryTree {
         
     }
 
-    public Node insertRec (Node root, int data){ // Rec means recursion
+    public Node insertRec (Node root, int data) { // Rec means recursion
 
         if (root==null)
         root = new Node(data);
