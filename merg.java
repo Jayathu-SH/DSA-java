@@ -5,8 +5,8 @@ public class merg {
         if (l<r){
 
             int mid = (l+r)/2;
-            mergeSort(arr, l, mid);//[3,5,1]
-            mergeSort(arr, mid+1, r);//[4,6,2]
+            mergeSort (arr, l, mid);//[3,5,1]
+            mergeSort (arr, mid+1, r);//[4,6,2]
 
             merge(arr, l, mid, r);
                 }
