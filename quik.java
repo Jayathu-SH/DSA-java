@@ -46,7 +46,7 @@ public class quik
 
         for (int num : arr) 
         {
-            System.out.print(num + " ");
+            System.out.print (num + " ");
         }
     }
 }

@@ -35,10 +35,10 @@ public class Selection {
 
 
         System.out.println();
-        System.out.println("after sorting");
+        System.out.println ("after sorting");
 
         for(int num : nums){
-            System.out.print(num + " ");
+            System.out.print (num + " ");
         }
     }
     
