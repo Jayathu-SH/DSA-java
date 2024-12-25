@@ -42,7 +42,7 @@ public class quik
         
         int arr[] = {5,62,2,3,111,81,4};
 
-        quickSort(arr, 0, arr.length-1);//low = 0 ,,, high=length-1
+        quickSort (arr, 0, arr.length-1);//low = 0 ,,, high=length-1
 
         for (int num : arr) 
         {

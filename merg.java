@@ -62,12 +62,12 @@ public class merg {
 
         
     }
-        public static void main(String[] args) {
+        public static void main (String[] args) {
         
         int arr[] = {8,57,9,111,6,7,75};
 
         for(int n : arr){
-            System.out.print(n + " ");
+            System.out.print (n + " ");
         }
         System.out.println();
 

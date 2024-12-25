@@ -2,7 +2,7 @@ package stak;
 
 
 public class Runner {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         
         Stack nums = new Stack();
         nums.push(15);
@@ -11,7 +11,7 @@ public class Runner {
         //System.out.println(nums.peek());
 
 
-        nums.push(10);
+        nums.push (10);
 
        //System.out.println (nums.pop());
 
