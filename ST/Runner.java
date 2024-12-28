@@ -3,7 +3,7 @@ package ST;
 public class Runner {
     public static void main(String[] args) {
         
-        Stack nums = new Stack();
+        DStack nums = new DStack();
        
         nums.push(15);
         nums.show();
@@ -11,11 +11,20 @@ public class Runner {
         nums.show();
         nums.push(10);
         nums.show();
+        nums.push(10);
+        nums.show();
+        nums.push(10);
+        nums.show();
+
+        nums.pop();
+        nums.show();
+        nums.pop();
+        nums.show();
+        nums.pop();
+        nums.show();
+
+        nums.pop();
+        nums.show();
         
-        System.out.println(nums.pop());
-        System.out.println(nums.pop());
-        System.out.println(nums.pop());
-        System.out.println(nums.size());
-        System.out.println(nums.pop());
     }
 }
