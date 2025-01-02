@@ -63,7 +63,7 @@ public class DStack {
 
     public void show(){
         for(int n : stack){
-            System.out.print(n + " ");
+            System.out.print (n + " ");
         }
         System.out.println();
     }

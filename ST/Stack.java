@@ -7,7 +7,7 @@ public class Stack {
     public void push(int data)
     {
         if(top==5){
-            System.out.println("Stack is full");
+            System.out.println ("Stack is full");
         }else
         {
         stack[top] = data;
@@ -18,7 +18,7 @@ public class Stack {
 
         int data = 0;
         if (isEmpty()) {
-            System.out.println("Stack is empty");
+            System.out.println ("Stack is empty");
         }else{
         top--;
         data= stack[top];
