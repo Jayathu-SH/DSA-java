@@ -1,7 +1,7 @@
 package queu;
 
 public class Runner {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         
         Queue q = new Queue();
         // q.enQueue(5);
@@ -19,9 +19,9 @@ public class Runner {
         // q.enQueue(15);
         
         //System.out.println(q.isEmpty());
-        System.out.println(q.isFull());
+        System.out.println (q.isFull());
 
         System.out.println ("Size " + q.getSize());// getSize is a method 
-        q.show();
+        q.show ();
     }
 }

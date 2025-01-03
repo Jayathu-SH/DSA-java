@@ -16,7 +16,7 @@ public class Queue {
         }
         else
         {
-        System.out.println("Queue is Full");
+        System.out.println ("Queue is Full");
         }
     }
 
@@ -29,7 +29,7 @@ public class Queue {
         size = size-1;
         }
         else
-        System.out.println("Queue is Empty");
+        System.out.println ("Queue is Empty");
         return data;
 
     }
@@ -40,13 +40,13 @@ public class Queue {
         for(int i=0; i<size; i++)
         {
             //System.out.print(queue[i] + " ");
-            System.out.print(queue[(front+i)%5] + " ");// %size circular
+            System.out.print (queue[(front+i)%5] + " ");// %size circular
         }
-        System.out.println();
+        System.out.println ();
 
         for(int n : queue)
         {
-            System.out.print(n + " ");
+            System.out.print (n + " ");
         }
     }
     public int getSize()
