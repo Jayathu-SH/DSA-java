@@ -16,7 +16,7 @@ public class DStack {
                 top++;
             
             }
-            private void expand() {
+            private void expand () {
                 int length = size();
                 int newStack[]= new int[capacity*2];
                 System.arraycopy(stack, 0, newStack, 0, length);
