@@ -4,7 +4,7 @@ public class Insertion {
         
         int arr[] = {5,6,2,3,1,8,4};
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
             int j = i-1;
 

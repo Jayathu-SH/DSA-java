@@ -2,8 +2,11 @@ public class Demo
 {
   public static void main(String[] args)
    {
-     int nums[] = new int[1000];
-     int target = 900;
+    //  int nums[] = new int[1000];
+    //  int target = 900;
+
+     int nums[] = {3,4,5,7,9};
+     int target = 7;
 
      int result1 = linearSearch(nums, target);
      int result2 = binarySearch(nums, target, 0, nums.length-1);

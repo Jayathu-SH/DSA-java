@@ -7,7 +7,7 @@ public class De {
         int temp = 0;
         System.out.println("Before sorting");
 
-        for(int num : nums){
+        for(int num : nums){// for each loop
             System.out.print(num + " ");
         }
 
