@@ -1,4 +1,4 @@
-public class Arr {
+public class SecondLargestArr {
     public static void main(String[] args){
         int numbers[]={10,22,5,4,110};
 
