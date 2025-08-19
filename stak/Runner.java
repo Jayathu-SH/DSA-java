@@ -8,7 +8,7 @@ public class Runner {
         nums.push(15);
         nums.push(8);
 
-        //System.out.println(nums.peek());
+        // System.out.println(nums.peek());
 
 
         nums.push (10);
