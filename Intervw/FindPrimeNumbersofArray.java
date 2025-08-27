@@ -22,3 +22,7 @@ public class FindPrimeNumbersofArray {
     }
     
 }
+
+//i=3 -> first odd number after 2
+//i<=Math.sqrt(n) -> prime checking
+//i+=2 -> only odd numbers are checked 
