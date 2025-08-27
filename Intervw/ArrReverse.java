@@ -2,7 +2,7 @@
 
 public class ArrReverse {
     public static void main(String[] args) {
-        String str = "ABCD";
+        String str = "hello";
         String rev = "";
 
         // System.out.println(str.charAt(0));
@@ -15,3 +15,4 @@ public class ArrReverse {
         System.out.println(rev);
     }
 }
+
