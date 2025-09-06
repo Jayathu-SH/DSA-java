@@ -13,7 +13,7 @@ public class RemoveAndFindDuplicateElementOfArray {
             if(!unique.add(num)){//add(num)->If num is not already in the set, it gets added and the method returns true.
                                  //If num is already in the set, it does not get added and the method returns false.
                 duplicates.add(num);
-            }
+            }//.add -> method in HashSet for duplicate handling
         }
         System.out.println("Unique: "+unique);
         System.out.println("Duplicates :"+duplicates);
