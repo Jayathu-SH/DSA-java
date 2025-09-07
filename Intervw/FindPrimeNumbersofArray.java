@@ -26,3 +26,16 @@ public class FindPrimeNumbersofArray {
 //i=3 -> first odd number after 2
 //i<=Math.sqrt(n) -> prime checking
 //i+=2 -> only odd numbers are checked 
+
+
+
+//√9 = 3 → so loop runs with i = 3.
+//Check → 9 % 3 == 0(divisible).
+//That means 9 is not prime → return false.
+
+
+//√11 ≈ 3.31 → loop runs with i = 3.
+//Check → 11 % 3 == 0 (not divisible).
+//Loop ends (because next i=4 > √11).
+//No divisors found → return true.
+//So 11 is prime.
